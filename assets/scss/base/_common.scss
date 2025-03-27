@@ -1,0 +1,57 @@
+/* 공통소스 */
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+.inner{
+    padding: 0 5rem;
+    margin: 0 auto;
+    @include tablet{
+        padding: 0 3rem;
+    }
+    @include mobile{
+        padding: 0 2rem;
+    }
+}
+
+.headline{
+    font-weight: 500;
+    span{
+        transition: color 0.3s;
+        &:hover{
+            color: $color-orange1; /* 색상 변경 */
+        }
+    }
+} 
+
+/* 커스텀 커서 스타일 */
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: rgba($color-orange2, 0.8); /* 기본 색상 */
+    border-radius: 50%;
+    pointer-events: none; /* 다른 요소와의 상호작용 방지 */
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* 항상 최상위에 표시 */
+    &.hover{
+        width: 40px;
+        height: 40px;
+        background-color: rgba($color-orange2, 0.5);
+    }
+}
+
+.another{
+    color: $color-orange1;
+}
+
+
+
+

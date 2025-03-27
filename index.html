@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="./assets/js/layout.js"></script>
+    <script src="./assets/js/main.js"></script>
+</head>
+<body>
+    <div class="intro">
+        <div class="group-intro">
+            <span>Web Publisher</span>
+            <span>©2025 Portfolio</span>
+        </div>
+    </div>
+
+    <header class="header" id="header">
+        <div class="inner">
+            <div class="group-flex">
+                <h1 class="logo">
+                    <span class="blind">KIM UNG BAE</span>
+                    <a href="#">KUB</a>
+                </h1>
+            
+                <nav class="gnb">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#header">Home</a></li>
+                        <li class="nav-item"><a href="#about">About</a></li>
+                        <li class="nav-item"><a href="#projects">Projects</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="inner">
+            <section class="sc-headline">
+                <div class="group-headline">
+                    <h2 class="headline">
+                        <span>C</span><span>r</span><span>e</span><span>a</span><span>t</span><span>i</span><span>v</span><span>e</span>&nbsp;<span class="another">&</span>
+                        <br>
+                        <span>W</span><span>e</span><span>b</span>&nbsp;<span>P</span><span>u</span><span>b</span><span>l</span><span>i</span><span>s</span><span>h</span><span>e</span><span>r</span>
+                    </h2>
+                </div>
+            </section>
+
+            <section class="sc-about" id="about">
+                <div class="content">
+                    <div class="group-headline">
+                        <h2 class="headline">About me</h2>
+                    </div>
+                    <div class="group-about">
+                        <p class="desc">
+                            저는 단순히 눈에 보이는 화려한 디자인을 만드는 것이 아니라,<br><span class="another">사용자가 편리하게 이용할 수 있는 웹</span>을 구현하는 것을 목표로 합니다.<br><br>
+                            웹사이트는 단순한 코드의 집합이 아니라,<br>누구나 쉽고 원활하게 접근할 수 있는 공간이어야 합니다.<br>
+                            이를 위해 웹 표준과 접근성, 호환성을 고려한 마크업을 실천하며,<br>사용자 경험을 극대화하는 방향으로 나아가겠습니다.<br><br>
+                            완성도 높은 웹사이트를 만들기 위해 끊임없이 연구하고 성장하며,<br>맡은 일에 책임을 다하는 웹 퍼블리셔가 될 것을 약속드립니다.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sc-projects" id="projects">
+                <h2 class="headline">Featured Project</h2>
+            
+                <ul class="projects-list">
+                    <li class="projects-item">
+                        <div class="content">
+                            <div class="img-area">
+                                <img src="./assets/images/sc_projects_img1.png" alt="네이버">
+                            </div>
+                            <div class="text-area">
+                                <div class="text-wrap">
+                                    <h3 class="title">Naver</h3>
+                                    <div class="text-box">
+                                        <span>#Pc</span>
+                                        <span>#적응형</span>
+                                    </div>
+                                </div>
+                                <div class="link-wrap">
+                                    <a href="https://exquisite-nougat-dc75de.netlify.app/" target="_blank"><span>Go site</span></a>
+                                    <a href="https://velog.io/@ub91/NAVER-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9" target="_blank"><span>Code Review</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects-item">
+                        <div class="content">
+                            <div class="img-area">
+                                <img src="./assets/images/sc_projects_img2.jpg" alt="서울시청">
+                            </div>
+                            <div class="text-area">
+                                <div class="text-wrap">
+                                    <h3 class="title">서울시청</h3>
+                                    <div class="text-box">
+                                        <span>#Pc</span>
+                                        <span>#적응형</span>
+                                        <span>#Swiper</span>
+                                    </div>
+                                </div>
+                                <div class="link-wrap">
+                                    <a href="https://dynamic-salmiakki-1d72e8.netlify.app/" target="_blank"><span>Go site</span></a>
+                                    <a href="https://velog.io/@ub91/%EC%84%9C%EC%9A%B8%EC%8B%9C%EC%B2%AD-zizkeguc" target="_blank"><span>Code Review</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects-item">
+                        <div class="content">
+                            <div class="img-area">
+                                <img src="./assets/images/sc_projects_img3.jpg" alt="안다르">
+                            </div>
+                            <div class="text-area">
+                                <div class="text-wrap">
+                                    <h3 class="title">Andar</h3>
+                                    <div class="text-box">
+                                        <span>#Moblie</span>
+                                        <span>#적응형</span>
+                                        <span>#Swiper</span>
+                                    </div>
+                                </div>
+                                <div class="link-wrap">
+                                    <a href="https://melodious-khapse-dffb1e.netlify.app/" target="_blank"><span>Go site</span></a>
+                                    <a href="https://velog.io/@ub91/%EC%95%88%EB%8B%A4%EB%A5%B4" target="_blank"><span>Code Review</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects-item">
+                        <div class="content">
+                            <div class="img-area">
+                                <img src="./assets/images/sc_projects_img4.jpg" alt="네이버 커리어">
+                            </div>
+                            <div class="text-area">
+                                <div class="text-wrap">
+                                    <h3 class="title">Naver Careers</h3>
+                                    <div class="text-box">
+                                        <span>#반응형</span>
+                                        <span>#Swiper</span>
+                                    </div>
+                                </div>
+                                <div class="link-wrap">
+                                    <a href="https://clever-palmier-fc6d6a.netlify.app/" target="_blank"><span>Go site</span></a>
+                                    <a href="https://velog.io/@ub91/NAVER-Careers" target="_blank"><span>Code Review</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects-item">
+                        <div class="content">
+                            <div class="img-area">
+                                <img src="./assets/images/sc_projects_img5.jpg" alt="FC 바르셀로나">
+                            </div>
+                            <div class="text-area">
+                                <div class="text-wrap">
+                                    <h3 class="title">FC Barcelona</h3>
+                                    <div class="text-box">
+                                        <span>#Pc</span>
+                                        <span>#적응형</span>
+                                        <span>#Swiper</span>
+                                        <span>#Gsap</span>
+                                        <span>#ScrollTrigger</span>
+                                        <span>#split</span>
+                                    </div>
+                                </div>
+                                <div class="link-wrap">
+                                    <a href="https://melodious-lokum-e83cfa.netlify.app/" target="_blank"><span>Go site</span></a>
+                                    <a href="https://velog.io/@ub91/FC-%EB%B0%94%EB%A5%B4%EC%85%80%EB%A1%9C%EB%82%98" target="_blank"><span>Code Review</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects-item">
+                        <div class="content">
+                            <div class="img-area">
+                                <img src="./assets/images/sc_projects_img6.jpg" alt="올리브영">
+                            </div>
+                            <div class="text-area">
+                                <div class="text-wrap">
+                                    <h3 class="title">Olive Young</h3>
+                                    <div class="text-box">
+                                        <span>#Moblie</span>
+                                        <span>#적응형</span>
+                                        <span>#Swiper</span>
+                                        <span>#Scss</span>
+                                        <span>#Json</span>
+                                    </div>
+                                </div>
+                                <div class="link-wrap">
+                                    <a href="https://splendorous-croissant-f2f972.netlify.app/" target="_blank"><span>Go site</span></a>
+                                    <a href="https://velog.io/@ub91/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81" target="_blank"><span>Code Review</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects-item">
+                        <div class="content">
+                            <div class="img-area">
+                                <img src="./assets/images/sc_projects_img7.png" alt="Decor Systems">
+                            </div>
+                            <div class="text-area">
+                                <div class="text-wrap">
+                                    <h3 class="title">Decor Systems</h3>
+                                    <div class="text-box">
+                                        <span>#반응형</span>
+                                        <span>#Swiper</span>
+                                        <span>#Scss</span>
+                                        <span>#Gsap</span>
+                                        <span>#ScrollTrigger</span>
+                                        <span>#Lenis</span>
+                                        <span>#split</span>
+                                    </div>
+                                </div>
+                                <div class="link-wrap">
+                                    <a href="https://teal-daffodil-8374a5.netlify.app/" target="_blank"><span>Go site</span></a>
+                                    <a href="https://velog.io/@ub91/Decor-Systems" target="_blank"><span>Code Review</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <div class="inner">
+        <footer class="footer">
+            <h2 class="blind">푸터</h2>
+            <nav class="footer-gnb">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <span>Explore</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="mailto:kuuubbb91@gmail.com" class="email">Email</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/" target="_blank">Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://velog.io/@ub91/posts" target="_blank">Velog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="group-thanks">
+                <div class="thanks-area">
+                    <span>Danke!</span>
+                </div>
+                <div class="thanks-area">
+                    <span>Salamat!</span>
+                </div>
+                <div class="thanks-area">
+                    <span>Arigato!</span>
+                </div>
+                <div class="thanks-area">
+                    <span>Gracias!</span>
+                </div>
+                <div class="thanks-area">
+                    <span>Merci!</span>
+                </div>
+                <svg viewBox="0 0 132.9 31.1"><g class="thanks-letter" opacity="1" style="transform: translateY(0%); transform-origin: 13.5935px 11.6845px;" transform-origin="13.59353256225586px 11.684467315673828px"><text class="thanks_letter___C9kh" y="98.5%" x="0">T</text></g><g class="thanks-letter" opacity="1" style="transform: translateY(0%); transform-origin: 39.8358px 11.6845px;" transform-origin="39.835761070251465px 11.684467315673828px"><text class="thanks_letter___C9kh" y="98.5%" x="19.5%">h</text></g><g class="thanks-letter" opacity="1" style="transform: translateY(0%); transform-origin: 61.6289px 11.6845px;" transform-origin="61.62893581390381px 11.684467315673828px"><text class="thanks_letter___C9kh" y="98.5%" x="36.7%">a</text></g><g class="thanks-letter" opacity="1" style="transform: translateY(0%); transform-origin: 83.382px 11.6845px;" transform-origin="83.3820333480835px 11.684467315673828px"><text class="thanks_letter___C9kh" y="98.5%" x="52.25%">n</text></g><g class="thanks-letter" opacity="1" style="transform: translateY(0%); transform-origin: 105.42px 11.6845px;" transform-origin="105.41983890533447px 11.684467315673828px"><text class="thanks_letter___C9kh" y="98.5%" x="69.35%">k</text></g><g class="thanks-letter" opacity="1" style="transform: translateY(0%); transform-origin: 123.599px 11.6845px;" transform-origin="123.59853744506836px 11.684467315673828px"><text class="thanks_letter___C9kh" y="98.5%" x="84.9%">s</text></g></svg>
+            </div>
+        </footer>
+    </div>
+    
+    <div class="custom-cursor"></div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+.gnb{
+    .nav-list{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    a{
+        position: relative;
+        display: block;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        @include tablet{
+            font-size: 1rem;
+        }
+        @include mobile{
+            font-size: 0.8rem;
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: $color-white;
+            transition: width .3s;
+        }
+        &:hover::after{
+            width: 100%;
+        }
+    }
+}
