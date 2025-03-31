@@ -40,6 +40,8 @@
 }
 
 .sc-about{
+    max-width: 700px;
+    background: #f00;
     padding: 10rem 0;
     @include tablet{
         padding: 7rem 0;

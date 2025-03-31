@@ -11,7 +11,6 @@ $(function(){
             start: "0% 0%", 
             end: "100% 30%",
             scrub: 1.2,
-            markers:true
         }
     });
     
