@@ -480,7 +480,7 @@ body {
 }
 @media (max-width: 600px) {
   .container {
-    margin-top: 50vh;
+    margin-top: 5rem;
   }
 }
 
@@ -495,7 +495,7 @@ body {
 }
 @media (max-width: 600px) {
   .sc-headline {
-    height: 50vh;
+    height: 40vh;
   }
 }
 .sc-headline .group-headline {

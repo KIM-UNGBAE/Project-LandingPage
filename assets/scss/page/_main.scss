@@ -2,7 +2,7 @@
     width: 100%;
     min-width: 320px;
     @include mobile{
-        margin-top: 50vh;
+        margin-top: 5rem;
     }
 }
 .sc-headline{
@@ -12,7 +12,7 @@
         height: 65vh;
     }
     @include mobile{
-        height: 50vh;
+        height: 40vh;
     }
     .group-headline{
         position: absolute;
