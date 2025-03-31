@@ -5,7 +5,7 @@
         margin-top: 10rem;
     }
     @include mobile{
-        margin-top: 20rem;
+        margin-top: 10rem;
     }
 }
 .sc-headline{
@@ -15,7 +15,7 @@
         height: 50vh;
     }
     @include mobile{
-        height: 25vh;
+        height: 40vh;
     }
     .group-headline{
         position: absolute;
