@@ -520,7 +520,7 @@ body {
 }
 @media (max-width: 600px) {
   .sc-headline .headline {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 .sc-headline .headline span {
@@ -587,7 +587,7 @@ body {
 }
 @media (max-width: 600px) {
   .sc-about .group-about .desc {
-    font-size: 1rem;
+    font-size: 0.97rem;
   }
 }
 
