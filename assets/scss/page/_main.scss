@@ -40,8 +40,6 @@
 }
 
 .sc-about{
-    max-width: 700px;
-    background: #f00;
     padding: 10rem 0;
     @include tablet{
         padding: 7rem 0;
@@ -51,8 +49,10 @@
     }
     .content{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         gap: 2rem;
+        max-width: 700px;
         @include tablet{
             gap: 1.5rem;
         }

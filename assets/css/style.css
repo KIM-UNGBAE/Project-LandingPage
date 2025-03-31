@@ -529,8 +529,6 @@ body {
 }
 
 .sc-about {
-  max-width: 700px;
-  background: #f00;
   padding: 10rem 0;
 }
 @media (max-width: 1024px) {
@@ -545,8 +543,10 @@ body {
 }
 .sc-about .content {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   gap: 2rem;
+  max-width: 700px;
 }
 @media (max-width: 1024px) {
   .sc-about .content {
