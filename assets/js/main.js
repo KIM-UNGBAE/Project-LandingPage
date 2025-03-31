@@ -11,6 +11,7 @@ $(function(){
             start: "0% 0%", 
             end: "100% 30%",
             scrub: 1.2,
+            markers:true
         }
     });
     
@@ -21,7 +22,6 @@ $(function(){
             trigger: el,
             start: '0% 50%',
             end: '100% 100%',
-            markers:true,
             onEnter: function() {
                 gsap.to(el, {
                     opacity: 1,
