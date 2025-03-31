@@ -1,6 +1,9 @@
 .container{
     width: 100%;
     min-width: 320px;
+    @include mobile{
+        margin-top: 50vh;
+    }
 }
 .sc-headline{
     position: relative;

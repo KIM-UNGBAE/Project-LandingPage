@@ -478,6 +478,11 @@ body {
   width: 100%;
   min-width: 320px;
 }
+@media (max-width: 600px) {
+  .container {
+    margin-top: 50vh;
+  }
+}
 
 .sc-headline {
   position: relative;
