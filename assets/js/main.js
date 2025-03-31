@@ -8,10 +8,9 @@ $(function(){
         stagger: 0.08,
         scrollTrigger: {
             trigger: ".sc-headline",
-            start: "0% 0%", 
+            start: "20% 0%", 
             end: "100% 30%",
             scrub: 1.2,
-            markers:true
         }
     });
     
@@ -20,7 +19,7 @@ $(function(){
     $('.sc-projects .projects-item').each(function(i, el) {
         ScrollTrigger.create({
             trigger: el,
-            start: '0% 50%',
+            start: '0% 70%',
             end: '100% 100%',
             onEnter: function() {
                 gsap.to(el, {
