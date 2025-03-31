@@ -19,8 +19,9 @@ $(function(){
     $('.sc-projects .projects-item').each(function(i, el) {
         ScrollTrigger.create({
             trigger: el,
-            start: '0% 70%',
+            start: '0% 50%',
             end: '100% 100%',
+            markers:true,
             onEnter: function() {
                 gsap.to(el, {
                     opacity: 1,
