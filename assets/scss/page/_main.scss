@@ -54,9 +54,11 @@
         width: 59%;
         @include tablet{
             gap: 1.5rem;
+            width: 84%;
         }
         @include mobile{
             gap: 1rem;
+            width: 100%;
         }
     }
     .group-headline{

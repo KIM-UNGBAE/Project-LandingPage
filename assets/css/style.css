@@ -550,11 +550,13 @@ body {
 @media (max-width: 1024px) {
   .sc-about .content {
     gap: 1.5rem;
+    width: 84%;
   }
 }
 @media (max-width: 600px) {
   .sc-about .content {
     gap: 1rem;
+    width: 100%;
   }
 }
 .sc-about .group-headline {
