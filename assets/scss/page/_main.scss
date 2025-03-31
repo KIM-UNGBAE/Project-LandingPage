@@ -1,11 +1,15 @@
+.container{
+    width: 100%;
+    min-width: 320px;
+}
 .sc-headline{
     position: relative;
     height: 100vh;
     @include tablet{
-        height: 50vh;
+        height: 65vh;
     }
     @include mobile{
-        height: 35vh;
+        height: 50vh;
     }
     .group-headline{
         position: absolute;
@@ -20,7 +24,7 @@
             font-size: 7.2rem;
         }
         @include mobile{
-            font-size: 3.2rem;
+            font-size: 4rem;
         }
         span{
             display: inline-block;
@@ -65,7 +69,7 @@
         flex-direction: column;
         .desc{
             font-size: 1.6rem;
-            line-height: 120%;
+            line-height: 130%;
             @include tablet{
                 font-size: 1.2rem;
             }
@@ -158,23 +162,17 @@
         }
     }
     .projects-item:nth-child(5){
-        width: 46.77%;
+        width: 42.77%;
         @include mobile{
             width: 100%;
         }
     }
     .projects-item:nth-child(6){
-        width: 36.23%;
-        margin-left: 17%;
+        width: 48.23%;
+        margin-left: 7%;
         @include mobile{
             width: 100%;
             margin-left: 0;
-        }
-    }
-    .projects-item:nth-child(7){
-        width: 75%;
-        @include mobile{
-            width: 100%;
         }
     }
     .content{
@@ -224,6 +222,7 @@
     }
     .text-box{
         display: flex;
+        flex-wrap: wrap;
         gap: 1rem;
         @include tablet{
             gap: 0.8rem;

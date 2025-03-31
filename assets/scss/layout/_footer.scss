@@ -1,13 +1,15 @@
 .footer{
-    padding: 2.5rem 0;
-    border-top: 1px solid $color-orange2;
-    @include tablet{
-        padding: 1.5rem 0;
-    }
-    @include mobile{
-        padding: 1rem 0;
-    }
+    width: 100%;
+    min-width: 320px;
     .footer-gnb{
+        padding: 2.5rem 0;
+        border-top: 1px solid $color-orange2;
+        @include tablet{
+            padding: 1.5rem 0;
+        }
+        @include mobile{
+            padding: 1rem 0;
+        }
         .nav-list{
             display: flex;
             align-items: center;
@@ -51,7 +53,9 @@
     }
     .group-thanks{
         position: relative;
+        width: 100%;
         margin-top: 1rem;
+        padding-bottom: 2.5rem;
         @include tablet{
             margin-top: 0.3rem;
         }

@@ -117,7 +117,7 @@ body {
   transition: color 0.3s;
 }
 .headline span:hover {
-  color: #ff5733; /* 색상 변경 */
+  color: #ff5733;
 }
 
 /* 커스텀 커서 스타일 */
@@ -196,6 +196,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  min-width: 320px;
   padding: 2.5rem 0;
   background-color: #fff;
   -webkit-backdrop-filter: blur(19.7px);
@@ -235,16 +236,20 @@ body {
 }
 
 .footer {
+  width: 100%;
+  min-width: 320px;
+}
+.footer .footer-gnb {
   padding: 2.5rem 0;
   border-top: 1px solid #ff6400;
 }
 @media (max-width: 1024px) {
-  .footer {
+  .footer .footer-gnb {
     padding: 1.5rem 0;
   }
 }
 @media (max-width: 600px) {
-  .footer {
+  .footer .footer-gnb {
     padding: 1rem 0;
   }
 }
@@ -294,7 +299,9 @@ body {
 }
 .footer .group-thanks {
   position: relative;
+  width: 100%;
   margin-top: 1rem;
+  padding-bottom: 2.5rem;
 }
 @media (max-width: 1024px) {
   .footer .group-thanks {
@@ -467,18 +474,23 @@ body {
   width: 100%;
 }
 
+.container {
+  width: 100%;
+  min-width: 320px;
+}
+
 .sc-headline {
   position: relative;
   height: 100vh;
 }
 @media (max-width: 1024px) {
   .sc-headline {
-    height: 50vh;
+    height: 65vh;
   }
 }
 @media (max-width: 600px) {
   .sc-headline {
-    height: 35vh;
+    height: 50vh;
   }
 }
 .sc-headline .group-headline {
@@ -498,7 +510,7 @@ body {
 }
 @media (max-width: 600px) {
   .sc-headline .headline {
-    font-size: 3.2rem;
+    font-size: 4rem;
   }
 }
 .sc-headline .headline span {
@@ -556,7 +568,7 @@ body {
 }
 .sc-about .group-about .desc {
   font-size: 1.6rem;
-  line-height: 120%;
+  line-height: 130%;
 }
 @media (max-width: 1024px) {
   .sc-about .group-about .desc {
@@ -674,7 +686,7 @@ body {
   }
 }
 .sc-projects .projects-item:nth-child(5) {
-  width: 46.77%;
+  width: 42.77%;
 }
 @media (max-width: 600px) {
   .sc-projects .projects-item:nth-child(5) {
@@ -682,21 +694,13 @@ body {
   }
 }
 .sc-projects .projects-item:nth-child(6) {
-  width: 36.23%;
-  margin-left: 17%;
+  width: 48.23%;
+  margin-left: 7%;
 }
 @media (max-width: 600px) {
   .sc-projects .projects-item:nth-child(6) {
     width: 100%;
     margin-left: 0;
-  }
-}
-.sc-projects .projects-item:nth-child(7) {
-  width: 75%;
-}
-@media (max-width: 600px) {
-  .sc-projects .projects-item:nth-child(7) {
-    width: 100%;
   }
 }
 .sc-projects .content {
@@ -755,6 +759,7 @@ body {
 }
 .sc-projects .text-box {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 @media (max-width: 1024px) {
