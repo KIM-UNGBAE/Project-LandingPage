@@ -139,10 +139,6 @@ body {
   background-color: rgba(255, 100, 0, 0.5);
 }
 
-.another {
-  color: #ff5733;
-}
-
 .intro {
   position: fixed;
   top: 0;
@@ -526,6 +522,9 @@ body {
 .sc-headline .headline span {
   display: inline-block;
   will-change: transform, opacity;
+}
+.sc-headline .headline .another {
+  color: #ff5733;
 }
 
 .sc-about {
