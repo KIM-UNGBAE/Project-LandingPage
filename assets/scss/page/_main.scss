@@ -1,18 +1,21 @@
 .container{
     width: 100%;
     min-width: 320px;
-    @include mobile{
+    @include tablet{
         margin-top: 10rem;
+    }
+    @include mobile{
+        margin-top: 20rem;
     }
 }
 .sc-headline{
     position: relative;
     height: 100vh;
     @include tablet{
-        height: 65vh;
+        height: 50vh;
     }
     @include mobile{
-        height: 40vh;
+        height: 25vh;
     }
     .group-headline{
         position: absolute;

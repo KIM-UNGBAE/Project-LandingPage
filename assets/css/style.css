@@ -478,9 +478,14 @@ body {
   width: 100%;
   min-width: 320px;
 }
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .container {
     margin-top: 10rem;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    margin-top: 20rem;
   }
 }
 
@@ -490,12 +495,12 @@ body {
 }
 @media (max-width: 1024px) {
   .sc-headline {
-    height: 65vh;
+    height: 50vh;
   }
 }
 @media (max-width: 600px) {
   .sc-headline {
-    height: 40vh;
+    height: 25vh;
   }
 }
 .sc-headline .group-headline {
