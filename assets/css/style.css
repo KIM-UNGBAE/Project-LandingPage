@@ -526,6 +526,14 @@ body {
 .sc-headline .headline .another {
   color: #ff5733;
 }
+.sc-headline .headline .hide-br {
+  display: none;
+}
+@media (max-width: 600px) {
+  .sc-headline .headline .hide-br {
+    display: block;
+  }
+}
 
 .sc-about {
   padding: 10rem 0;
