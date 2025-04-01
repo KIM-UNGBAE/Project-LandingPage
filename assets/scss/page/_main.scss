@@ -198,18 +198,54 @@
     .content{
         display: flex;
         flex-direction: column;
+        overflow: hidden;
     }
     .img-area{
-        width: 100%;
-        height: 100%;
-        @include mobile{
-            height: 30vh;
-        }
-        img{
+        position: relative;
+        transition: transform .5s;
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            background: rgba(0, 0, 0, 0.15);
         }
+        &:hover{
+            transform: scale(1.1);
+        }
+        @include mobile{
+            height: 35vh;
+        }
+    }
+    .img-area:nth-child(1){
+        padding-bottom: calc((580 / 1030) * 100%);
+    }
+    .img-area:nth-child(2){
+        padding-bottom: calc((383 / 680) * 100%);
+    }
+    .img-area:nth-child(3),
+    .img-area:nth-child(4){
+        padding-bottom: calc((377 / 679) * 100%);
+    }
+    .img-area:nth-child(5){
+        padding-bottom: calc((420 / 746) * 100%);
+    }
+    .img-area:nth-child(6){
+        padding-bottom: calc((474 / 842) * 100%);
+    }
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     .text-area{
         display: flex;

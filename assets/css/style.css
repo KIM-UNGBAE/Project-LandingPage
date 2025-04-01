@@ -728,17 +728,53 @@ body {
 .sc-projects .content {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .sc-projects .img-area {
+  position: relative;
+  transition: transform 0.5s;
+}
+.sc-projects .img-area::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
+  background: rgba(0, 0, 0, 0.15);
+}
+.sc-projects .img-area:hover {
+  transform: scale(1.1);
 }
 @media (max-width: 600px) {
   .sc-projects .img-area {
-    height: 30vh;
+    height: 35vh;
   }
 }
-.sc-projects .img-area img {
+.sc-projects .img-area:nth-child(1) {
+  padding-bottom: 56.3106796117%;
+}
+.sc-projects .img-area:nth-child(2) {
+  padding-bottom: 56.3235294118%;
+}
+.sc-projects .img-area:nth-child(3),
+.sc-projects .img-area:nth-child(4) {
+  padding-bottom: 55.5228276878%;
+}
+.sc-projects .img-area:nth-child(5) {
+  padding-bottom: 56.3002680965%;
+}
+.sc-projects .img-area:nth-child(6) {
+  padding-bottom: 56.2945368171%;
+}
+.sc-projects img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
