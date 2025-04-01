@@ -496,7 +496,7 @@ body {
 }
 @media (max-width: 600px) {
   .sc-headline {
-    height: 40vh;
+    height: 45vh;
   }
 }
 .sc-headline .group-headline {
@@ -516,7 +516,7 @@ body {
 }
 @media (max-width: 600px) {
   .sc-headline .headline {
-    font-size: 3rem;
+    font-size: 4.5rem;
   }
 }
 .sc-headline .headline span {
