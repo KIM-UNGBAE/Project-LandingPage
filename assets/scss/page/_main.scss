@@ -5,7 +5,7 @@
         margin-top: 10rem;
     }
     @include mobile{
-        margin-top: 20rem;
+        margin-top: 10rem;
     }
 }
 .sc-headline{
@@ -30,7 +30,7 @@
             font-size: 7.2rem;
         }
         @include mobile{
-            font-size: 4.5rem;
+            font-size: 3.2rem;
         }
         span{
             display: inline-block;
