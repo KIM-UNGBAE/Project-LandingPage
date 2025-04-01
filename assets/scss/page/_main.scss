@@ -39,6 +39,12 @@
         .another{
             color: $color-orange1;
         }
+        br{
+            display: none;
+            @include mobile{
+                display: block;
+            }
+        }
     }
 }
 
