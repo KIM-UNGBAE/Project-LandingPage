@@ -728,11 +728,10 @@ body {
 .sc-projects .content {
   display: flex;
   flex-direction: column;
-  overflow: hidden;
 }
 .sc-projects .img-area {
   position: relative;
-  transition: transform 0.5s;
+  overflow: hidden;
 }
 .sc-projects .img-area::after {
   content: "";
@@ -745,7 +744,7 @@ body {
   height: 100%;
   background: rgba(0, 0, 0, 0.15);
 }
-.sc-projects .img-area:hover {
+.sc-projects .img-area:hover img {
   transform: scale(1.1);
 }
 @media (max-width: 600px) {
@@ -779,6 +778,7 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: transform 0.5s;
 }
 .sc-projects .text-area {
   display: flex;
