@@ -671,6 +671,9 @@ body {
   width: 59%;
   margin-top: 0;
 }
+.sc-projects .projects-item:nth-child(1) .img-area {
+  padding-bottom: 59.6116504854%;
+}
 @media (max-width: 600px) {
   .sc-projects .projects-item:nth-child(1) {
     width: 100%;
@@ -680,6 +683,9 @@ body {
   width: 39%;
   margin-left: 2%;
   margin-top: 0;
+}
+.sc-projects .projects-item:nth-child(2) .img-area {
+  padding-bottom: 56.3235294118%;
 }
 @media (max-width: 600px) {
   .sc-projects .projects-item:nth-child(2) {
@@ -691,6 +697,9 @@ body {
   width: 38.33%;
   margin-left: 20.33%;
 }
+.sc-projects .projects-item:nth-child(3) .img-area {
+  padding-bottom: 90.4270986745%;
+}
 @media (max-width: 600px) {
   .sc-projects .projects-item:nth-child(3) {
     width: 100%;
@@ -701,6 +710,9 @@ body {
   width: 38.33%;
   margin-left: 2%;
 }
+.sc-projects .projects-item:nth-child(4) .img-area {
+  padding-bottom: 90.4270986745%;
+}
 @media (max-width: 600px) {
   .sc-projects .projects-item:nth-child(4) {
     width: 100%;
@@ -709,6 +721,9 @@ body {
 }
 .sc-projects .projects-item:nth-child(5) {
   width: 42.77%;
+}
+.sc-projects .projects-item:nth-child(5) .img-area {
+  padding-bottom: 100.3267973856%;
 }
 @media (max-width: 600px) {
   .sc-projects .projects-item:nth-child(5) {
@@ -719,8 +734,23 @@ body {
   width: 48.23%;
   margin-left: 7%;
 }
+.sc-projects .projects-item:nth-child(6) .img-area {
+  padding-bottom: 98.1012658228%;
+}
 @media (max-width: 600px) {
   .sc-projects .projects-item:nth-child(6) {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+.sc-projects .projects-item:nth-child(7) {
+  width: 73%;
+}
+.sc-projects .projects-item:nth-child(7) .img-area {
+  padding-bottom: 44.5250181291%;
+}
+@media (max-width: 600px) {
+  .sc-projects .projects-item:nth-child(7) {
     width: 100%;
     margin-left: 0;
   }
@@ -749,24 +779,8 @@ body {
 }
 @media (max-width: 600px) {
   .sc-projects .img-area {
-    height: 35vh;
+    height: 30vh;
   }
-}
-.sc-projects .img-area:nth-child(1) {
-  padding-bottom: 56.3106796117%;
-}
-.sc-projects .img-area:nth-child(2) {
-  padding-bottom: 56.3235294118%;
-}
-.sc-projects .img-area:nth-child(3),
-.sc-projects .img-area:nth-child(4) {
-  padding-bottom: 55.5228276878%;
-}
-.sc-projects .img-area:nth-child(5) {
-  padding-bottom: 56.3002680965%;
-}
-.sc-projects .img-area:nth-child(6) {
-  padding-bottom: 56.2945368171%;
 }
 .sc-projects img {
   position: absolute;
